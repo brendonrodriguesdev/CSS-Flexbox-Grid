@@ -25,17 +25,17 @@
     flex-shrink: 1;
 }
 
-.flex-item:nth-child(1) {
-    /* sddfdfd */
+/* .flex-item:nth-child(1) {
+    
 }
 
 .flex-item:nth-child(2) {
-    /* sgfgss */
+    
 }
 
 .flex-item:nth-child(3) {
-    /* dsfdfd */
-}
+    
+} */
 
 .flex-item:last-child {
     flex-grow: 0;
