@@ -10,36 +10,13 @@ body {
 
 .container {
     display: grid;
-    grid-template-areas: 
-    "i1 i1"
-    "i2 i3"
-    "i4 i4";
-    grid-template-columns: 1fr 200px;
-    grid-template-rows: 50px 1fr 60px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(4, 50px);
+    gap: 10px;
     height: 100vh;
     width: 100vw;
 }
 
 .item {
     background: deeppink;
-}
-
-.item-1 {
-    grid-area: i1;
-    background-color: red;
-}
-
-.item-2 {
-    grid-area: i2;
-    background-color: green;
-}
-
-.item-3 {
-    grid-area: i3;
-    background-color: blue;
-}
-
-.item-4 {
-    grid-area: i4;
-    background-color: yellow;
 }
